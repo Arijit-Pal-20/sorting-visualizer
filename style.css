@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button, select {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+#array {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    margin: 20px;
+}
+
+.bar {
+    width: 15px;
+    margin: 2px;
+    background: #38bdf8;
+    border-radius: 3px;
+}
+
+#info {
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#info h2 {
+    color: #22c55e;
+}
+
+#info p {
+    margin: 5px 0;
+}
